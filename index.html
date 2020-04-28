@@ -43,7 +43,7 @@
       <img src="/images/cover1.jpg" alt="image frame" />
     </div>
     <div class="cover-inner text-center text-white">
-      <h1><a href="/">Hexo</a></h1>
+      <h1><a href="/">不是Hezo</a></h1>
       <div id="language-show">111</div>
       <h2></h2>
       <div>
@@ -285,7 +285,8 @@
   var ayerConfig = {
     mathjax: false
   }
-  document.getElementById('#language-show').html = navigator
+  document.getElementById('#language-show').innerText = navigator
+  console.log(navigator)
 </script>
 
 
